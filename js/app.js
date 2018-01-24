@@ -229,7 +229,7 @@ var MainService = function () {
             var isotoDate = t.toISODate();
             console.log("frmDate,todate:", isofrmDate, isotoDate);
             this.$http({
-                url: 'http://104.197.128.152/data/adrequests?from=' + isofrmDate + '&to=' + isotoDate,
+                url: '//104.197.128.152/data/adrequests?from=' + isofrmDate + '&to=' + isotoDate,
                 method: 'GET'
             }).then(function (response) {
                 console.log("response.data:", response);
