@@ -166,7 +166,7 @@ angular.module("GreedyGame", ['ui.router', 'satellizer']).run(['$rootScope', '$s
     $urlRouterProvider.otherwise("/");
     $stateProvider.state("main", {
         url: "/",
-        templateUrl: "partials/main.html",
+        templateUrl: "https://d-arnab.github.io/deployeGreedygame/partials/main.html",
         controller: "mainController"
     });
 });
